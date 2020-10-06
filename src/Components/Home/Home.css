@@ -1,0 +1,9 @@
+.home-title{
+    text-align: center;
+    text-transform: uppercase;
+}
+.form-control{
+    width: 30%;
+    margin-left: 32%;
+    float: left;
+}
