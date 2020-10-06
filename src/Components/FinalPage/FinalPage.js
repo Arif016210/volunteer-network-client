@@ -7,7 +7,7 @@ const FinalPage = () => {
 
 
     useEffect(() => {
-        fetch('http://localhost:5000/registerUser?email=' + loggedInUser.email, {
+        fetch('https://stark-ridge-32129.herokuapp.com//registerUser?email=' + loggedInUser.email, {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',

@@ -42,7 +42,7 @@ const RegisterPage = (props) => {
 
     const handleRegister = () => {
         const newRegister = { ...loggedInUser, ...selectedDate };
-        fetch('http://localhost:5000/addRegister', {
+        fetch('https://stark-ridge-32129.herokuapp.com//addRegister', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(newRegister),
